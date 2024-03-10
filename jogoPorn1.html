@@ -10,8 +10,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <div class="tela" >
-
-
 <img src="puta1.jpg"class="foto">
 
 <button class="" id="btn1">01</button>
@@ -19,26 +17,36 @@
 <button class="" id="btn3">03</button>
 <button class="" id="btn4">04</button>
 <button class="" id="btn5">05</button>
+</div>
+<div class="tela" >
 <button class="" id="btn6">06</button>
 <button class="" id="btn7">07</button>
 <button class="" id="btn8">08</button>
 <button class="" id="btn9">09</button>
 <button class="" id="btn10">10</button>
+</div >
+<div class="tela3" >
 <button class="" id="btn11">11</button>
 <button class="" id="btn12">12</button>
 <button class="" id="btn13">13</button>
 <button class="" id="btn14">14</button>
 <button class="" id="btn15">15</button>
+</div>
+<div class="tela4" >
 <button class="" id="btn16">16</button>
 <button class="" id="btn17">17</button>
 <button class="" id="btn18">18</button>
 <button class="" id="btn19">19</button>
 <button class="" id="btn20">20</button>
+</div>
+<div class="tela5" >
 <button class="" id="btn21">21</button>
 <button class="" id="btn22">22</button>
 <button class="" id="btn23">23</button>
 <button class="" id="btn24">24</button>
 <button class="" id="btn25">25</button>
+</div>
+<div class="tela6" >
 <button class="" id="btn26">26</button>
 <button class="" id="btn27">27</button>
 <button class="" id="btn28">28</button>
@@ -47,8 +55,17 @@
 </div>
 <a href="https://multijogo.github.io/Link-de-pagamento-pix/">
 <button onclick="pegar()" id="btnproxi">VOLTAR</button></a>
+
+
 <a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar()" id="btnvoltar">PROXIMO</button>
 </a>
+<br><a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar()"id="video">VIDEOS EXCLUSIVO</button></a><br><br>
+
+
+<iframe src="Puta2.mp4" class="ifra"></iframe>
+<iframe src="videoPuta1.mp4" class="ifra"></iframe>
+<iframe src="Puta3.mp4" class="ifra"></iframe>
+
 <script>
 jQuery(document).ready(function($) { $('#btn1').click(function() { this.remove(); }); });
 </script>
@@ -171,14 +188,18 @@ function pegar(){
 body  { background:black;
     }
     
-.tela {position:absolute;
+.tela1 {position:absolute;
 width:100%;
-height:300px;
+height:50px;
 border:1px solid red;
-;
+}
+.tela2 {position:absolute;
+width:100%;
+height:50px;
+border:1px solid red;
 }
 #btn1 {
-    position:absolute;
+    position:relative;
     width:18%;background:green;
     height:50px;
     padding:10;
@@ -473,11 +494,11 @@ border:1px solid red;
     height:40px;
     padding:0;
     border box:10px;
-    margin-left:10%;
+    margin-left:0%;
     border-radius:10px;
     border:none;
    outline:none;
-   bottom:20%;
+   bottom:30%;
    
 }#btnProxi:focus{
     background:white;
@@ -496,12 +517,25 @@ border:1px solid red;
     height:40px;
     padding:10px;
     border box:10px;
-    margin-left :50%;
+    margin-left :35%;
     border-radius:10px;
     border:none;
    outline:none;
-   bottom:20%;
+   bottom:30%;
    
+}
+#video{
+     position:absolute;
+    background:gold;
+    width:30%;
+    height:40px;
+    padding:10px;
+    border box:10px;
+    margin-left :70%;
+    border-radius:10px;
+    border:none;
+   outline:none;
+   bottom:30%;
 }
 #btnVoltar:focus{
     background:white;
@@ -519,7 +553,10 @@ h3{
     color:gold;
 }
 
-
+.ifra {
+    width:30%;
+    height:100px;
+}
 </style>
 </body>
 <html>
