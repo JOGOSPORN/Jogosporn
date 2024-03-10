@@ -164,11 +164,11 @@ document.getElementById("res").innerHTML= n1 , n2;}
 </script >
 <script>
 function pegar(){
-    alert ("faca um pix para LIBERAR AS PRÓXIMA GATAS")}
+    alert ("FACA UM PIX DE R$ 2.00 PARA LIBERAR AS PRÓXIMAS GATAS")}
 </script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body  {
+body  { background:black;
     }
     
 .tela {position:absolute;
@@ -479,7 +479,11 @@ border:1px solid red;
    outline:none;
    bottom:20%;
    
+}#btnProxi:focus{
+    background:white;
+    color:black;
 }
+
 .foto {
     position:absolute;
     width:100%;
@@ -488,7 +492,6 @@ border:1px solid red;
 #btnvoltar {
     position:absolute;
     background:blue;
-    
     width:30%;
     height:40px;
     padding:10px;
@@ -500,8 +503,14 @@ border:1px solid red;
    bottom:20%;
    
 }
+#btnVoltar:focus{
+    background:white;
+    color:black;
+}
+
 .foto {
     position:absolute;
+    background:none;
     width:100%;
     height:300px;
 }
