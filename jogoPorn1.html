@@ -5,7 +5,7 @@
 <title>JOGOS PARA ADULTO</title>
 
 </head>
-<h3>JOGOS PARA ADULTO</h3>
+<h3>JOGOS PARA ADULTO EXCLUSIVO</h3>
 <br>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -13,7 +13,7 @@
 <img src="puta1.jpg"class="foto">
 
 <button class="button01" id="btn1">01</button>
-<button class="" id="btn2">02</button>
+<button class="blink" id="btn2">02</button>
 <button class="" id="btn3">03</button>
 <button class="" id="btn4">04</button>
 <button class="" id="btn5">05</button>
@@ -47,24 +47,33 @@
 <button class="" id="btn25">25</button>
 </div>
 <div class="tela6" >
-<button class="" id="btn26">26</button>
+<button class="blink" id="btn26">26</button>
 <button class="" id="btn27">27</button>
 <button class="" id="btn28">28</button>
 <button class="" id="btn29">29</button>
-<button class="" id="btn30">30</button>
+<button class="blink" id="btn30">30</button>
 </div>
+
+
 <a href="https://multijogo.github.io/Link-de-pagamento-pix/">
 <button onclick="pegar()" id="btnproxi">VOLTAR</button></a>
 
 
 <a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar()" id="btnvoltar">PROXIMO</button>
 </a>
-<br><a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar1()"id="video">VIDEOS EXCLUSIVO</button></a><br><br>
+<br><a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar1()"id="video">VIDEOS EXCLUSIVO</button></a><br>
 
+<a href="https://multijogo.github.io/Link-de-pagamento-pix/">
+<button onclick="pegar()" id="btnvolta">GAY</button></a>
+
+
+<a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar()" id="btnprox">LESBICA</button>
+</a>
+<a href="https://multijogo.github.io/Link-de-pagamento-pix/"><button onclick="pegar1()"id="vide">HETERO</button></a><br>
 
 <iframe src="puta2.mp4" class="ifra1"></iframe>
 <iframe src="videoPuta1.mp4" class="ifra2"></iframe>
-<iframe src="Puta3.mp4" class="ifra3"></iframe>
+<iframe src="puta3.mp4" class="ifra3"></iframe>
 
 <script>
 jQuery(document).ready(function($) { $('#btn1').click(function() { this.remove(); }); });
@@ -575,7 +584,7 @@ border:1px solid red;
     height:300px;
 }
 h3{
-    margin-left:25%;
+    margin-left:10%;
     color:gold;
 }
 
@@ -584,14 +593,14 @@ h3{
     width:30%;
     height:100px;
     margin-left:0px;
-    bottom:50px;
+    bottom:0px;
 }
 .ifra2 {
     position:absolute;
     width:30%;
     height:100px;
     margin-left:130px;
-    bottom:50px;
+    bottom:0px;
     }
     
 .ifra3 {
@@ -599,8 +608,61 @@ h3{
     width:30%;
     height:100px;
     margin-left:250px;
-    bottom:50px;
+    bottom:0px;
     }
-</style>
+    
+    
+ #vide{
+     position:absolute;
+    background:gold;
+    width:30%;
+    height:40px;
+    padding:10px;
+    border box:10px;
+    margin-left :70%;
+    border-radius:10px;
+    border:none;
+   outline:none;
+   bottom:20%;
+}   
+
+#btnvolta{
+     position:absolute;
+    background:gold;
+    width:30%;
+    height:40px;
+    padding:10px;
+    border box:10px;
+    margin-left :0%;
+    border-radius:10px;
+    border:none;
+   outline:none;
+   bottom:20%;
+}   
+#btnprox{
+     position:absolute;
+    background:gold;
+    width:30%;
+    height:40px;
+    padding:10px;
+    border box:10px;
+    margin-left :35%;
+    border-radius:10px;
+    border:none;
+   outline:none;
+   bottom:20%;
+}   
+g {
+    text-aligh:center;
+    color:gold;
+}
+
+    </style>
+    
+    <style>
+     .blink { animation: blink 3s steps(1, end) infinite;}@keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; }}
+     
+     </style>
+
 </body>
 <html>
